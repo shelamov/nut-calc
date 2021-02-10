@@ -19,7 +19,7 @@
 <section class="recommendation">
 	<div class="dish"></div>
 	
-</section>
+</section>  
 <footer>
 </footer>
 
