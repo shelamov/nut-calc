@@ -1,0 +1,22 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+	@font-face {
+		font-family: $font_name;
+		font-display: swap;
+		src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+		font-weight: #{$weight};
+		font-style: #{$style};
+	}
+}
+
+@import "fonts.scss";
+@import "_bootstrap-grid-5-lite";
+@import "_basic.scss";
+@import "_variables.scss";
+@import "_icon.scss";
+@import "_default.scss";
+
+///////////////////////////////////////////////
+
+//////////////////////////////////////////////
+
+@import "_media.scss";
